@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dream Destinations - Peru</title>
+    <title>Dream Destinations - Iceland</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
@@ -20,9 +20,7 @@
         <a href="../Resume/Resume.html" class="nav-link">Resume</a>
         <a href="../Skills/Skills.html" class="nav-link">Skills</a>
         <a href="../Contact/contact.html" class="nav-link">Contact</a>
-        <a href="../Photodump/Photo-gallery.html" class="nav-link"
-          >Gallery</a
-        >
+        <a href="../Photodump/Photo-gallery.html" class="nav-link">Gallery</a>
         <a href="../Audio/hype.html" class="nav-link">Media</a>
         <a href="../Places/visit.html" class="nav-link">Places</a>
         <a href="../Audio/hype.html" class="nav-link">Bucket list</a>
@@ -40,31 +38,37 @@
 
           <section class="image-gallery">
             <figure class="gallery-item">
-              <img
-                src="as1.jpg"
-                alt="Northern Lights dancing over Kirkjufell"
-                class="gallery-image"
-              />
+              <a href="as1.jpg" target="_photos">
+                <img
+                  src="as1.jpg"
+                  alt="Northern Lights dancing over Kirkjufell"
+                  class="gallery-image"
+                />
+              </a>
               <figcaption class="image-caption">
                 Northern Lights dancing over Kirkjufell
               </figcaption>
             </figure>
             <figure class="gallery-item">
-              <img
-                src="as2.jpg"
-                alt="Blue Lagoon geothermal spa"
-                class="gallery-image"
-              />
+              <a href="as2.jpg" target="_photos">
+                <img
+                  src="as2.jpg"
+                  alt="Blue Lagoon geothermal spa"
+                  class="gallery-image"
+                />
+              </a>
               <figcaption class="image-caption">
                 Blue Lagoon geothermal spa
               </figcaption>
             </figure>
             <figure class="gallery-item">
-              <img
-                src="as3.jpeg"
-                alt="Dramatic Seljalandsfoss waterfall"
-                class="gallery-image"
-              />
+              <a href="as3.jpeg" target="_photos">
+                <img
+                  src="as3.jpeg"
+                  alt="Dramatic Seljalandsfoss waterfall"
+                  class="gallery-image"
+                />
+              </a>
               <figcaption class="image-caption">
                 Dramatic Seljalandsfoss waterfall
               </figcaption>
@@ -104,22 +108,26 @@
 
           <section class="destinations-grid">
             <article class="city-card">
-              <img
-                src="as4.jpeg"
-                alt="Reykjavik"
-                class="city-image"
-              />
+              <a href="as4.jpeg" target="_photos">
+                <img
+                  src="as4.jpeg"
+                  alt="Reykjavik"
+                  class="city-image"
+                />
+              </a>
               <h4 class="city-title">Reykjavik</h4>
               <p class="city-description">
                 Iceland's charming capital, where colorful buildings meet modern design, featuring vibrant arts, cuisine, and nightlife scenes.
               </p>
             </article>
             <article class="city-card">
-              <img
-                src="as5.jpg"
-                alt="Vatnajökull"
-                class="city-image"
-              />
+              <a href="as5.jpg" target="_photos">
+                <img
+                  src="as5.jpg"
+                  alt="Vatnajökull"
+                  class="city-image"
+                />
+              </a>
               <h4 class="city-title">Vatnajökull</h4>
               <p class="city-description">
                 Europe's largest glacier, offering ice caves, hiking trails, and stunning views of Iceland's raw natural beauty.
@@ -137,25 +145,24 @@
       >
         Go to Top
       </button>
-    </div>
 
-    <script>
-      const topButton = document.getElementById("topButton");
+      <script>
+        const topButton = document.getElementById("topButton");
 
-      window.addEventListener("scroll", () => {
-        if (window.scrollY > 500) {
-          topButton.classList.add("show");
-        } else {
-          topButton.classList.remove("show");
-        }
-      });
-
-      function scrollToTop() {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 500) {
+            topButton.classList.add("show");
+          } else {
+            topButton.classList.remove("show");
+          }
         });
-      }
-    </script>
+
+        function scrollToTop() {
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+          });
+        }
+      </script>
   </body>
 </html>
